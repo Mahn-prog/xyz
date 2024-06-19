@@ -1,7 +1,3 @@
-*Calculate
-speeding
-ticket *
-
 speed = int(input("Give Speed: "))
 
 if speed < 50:
@@ -11,26 +7,15 @@ elif speed >= 50 and speed <= 64:
 elif speed >= 65 and speed <= 74:
     print(f"Speeding ticket is 300 euros")
 elif speed >= 75 and speed <= 84:
-    print(f"Speeding ticket is 500 euros")
+    print(f"Speeding ticket is 500  euros")
 elif speed >= 85 and speed <= 89:
-    print(f"Speeding ticket is 800 euros")
+    print(f"Speeding ticket is 800  euros")
 elif speed >= 90:
     print(f"Speeding ticket is 1200 euros")
-
-*Numbers
-to
-opposite
-numbers *
-
 
 def opposites(numbers: list):
     for i in range(len(numbers)):
         numbers[i] = -numbers[i]
-
-
-*Most
-frequent
-word *
 
 words_count = {}
 while True:
@@ -46,20 +31,11 @@ while True:
 word = max(words_count, key=words_count.get)
 print("Most frequent word: " + word)
 
-*Sort
-list *
-
-
 def join_lists(list1: list, list2: list):
     list3 = list1 + list2
-
-
-list4 = list(set(list3))
-list4.sort()
-return list4
-
-*Copy
-Correct *
+    list4 = list(set(list3))
+    list4.sort()
+    return list4
 
 
 def copy_correct():
