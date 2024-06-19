@@ -1,17 +1,21 @@
 speed = int(input("Give Speed: "))
 
+
 if speed < 50:
-    print(f"Speeding ticket is 0 euros")
+    print(f"Speeding ticket is 0  euros")
+
 elif speed >= 50 and speed <= 64:
-    print(f"Speeding ticket is 150 euros")
+    print(f"Speeding ticket is 150  euros")
+
 elif speed >= 65 and speed <= 74:
-    print(f"Speeding ticket is 300 euros")
+    print(f"Speeding ticket is 300  euros")
+
 elif speed >= 75 and speed <= 84:
     print(f"Speeding ticket is 500  euros")
 elif speed >= 85 and speed <= 89:
     print(f"Speeding ticket is 800  euros")
 elif speed >= 90:
-    print(f"Speeding ticket is 1200 euros")
+    print(f"Speeding ticket is 1200  euros")
 
 def opposites(numbers: list):
     for i in range(len(numbers)):
